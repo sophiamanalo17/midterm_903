@@ -1,0 +1,92 @@
+@import url("https://use.typekit.net/bxr5bvj.css");
+@import url("https://use.typekit.net/bxr5bvj.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(images/home_background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+h1 {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navGeneral a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  
+  .navGeneral a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .navGeneral a.active {
+    background-color: #FFDDDD;
+    color: black;
+    text-decoration: underline;
+  }
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+  }
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.bottomnav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navGeneral {
+    padding: 25px;
+}
